@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>수강신청 준비 프로그램</title>
+</head>
+    <body>
+        <img src="logo.png"> 
+        <h1>수강신청 준비 프로그램</h1>
+        <p>수강신청 준비 프로그램에 오신걸 환영합니다. 이곳은 실제 수강신청을 하기 전 <strong>과목 선택에 대한 <u>조언 및 오류 확인</u></strong>을 제공하는 프로그램입니다. </p>
+        <p>자! 시작해볼까요? ^^</p>
+        <P>학번과 이름을 입력하세요.</P>
+        <form action="identification.php" method="POST">
+            <p><input type='text' name='stunum' placeholder='학번' required>
+            <input type='text' name='name' placeholder='이름' required></p>
+            <input type='password' name='password' placeholder='비밀번호(4자리)' required>
+            <input type='submit' value='확인'>
+        </form>
+       
+        <a href="set_password.php"><button>비밀번호 설정</button></a>
+    </body>
+</html>
